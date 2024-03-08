@@ -64,11 +64,10 @@ export const Form: FunctionComponent = () => {
     }
   }
 
- //subitform.tsx es el archivo que se ejecuta cuando se hace submit, se puede poner como onSubmit = {isComplete} en el form
   return (
     <div class="form">
       <h1>Introduce tus datos</h1>
-      <form action="/submitform.tsx" method="POST" onSubmit = {(e) =>isComplete(e)}>
+      <form action="/fin" method="GET" onSubmit = {(e) =>isComplete(e)}>
         <div>
           <label for="name">Name</label> 
         </div>

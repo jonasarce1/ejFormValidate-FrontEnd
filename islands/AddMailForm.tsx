@@ -43,7 +43,7 @@ export const addMailForm: FunctionComponent = () => {
     
     return (
         <div class="form">
-        <h1>Introduce to email</h1>
+        <h1>Introduce tu email</h1>
         <form method="POST" onSubmit = {(e) => addEmail(e, email)}>
             <div>
             <label for="email">Email</label>
